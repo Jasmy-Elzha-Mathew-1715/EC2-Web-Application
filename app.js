@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Set Terraform project path
-const terraformPath = process.env.TERRAFORM_PATH || '/Users/jasmyelzhamathew/terraform_scripts';
+const terraformPath = process.env.TERRAFORM_PATH || 'path';
 
 // Configure S3 client
 const s3Region = process.env.AWS_REGION || 'us-east-1';
