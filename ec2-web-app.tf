@@ -24,7 +24,19 @@ variable "aws_region" {
 
 variable "project_name" {
   type    = string
-  default = "web-app"
+  default = "ec2-web-app"
+}
+
+variable "template_script" {
+  default = "ec2-web-app"
+}
+
+variable "template_name" {
+  default = "ec2-web-app"
+}
+
+variable "web_app_name" {
+  default = "ec2-web-app"
 }
 
 variable "environment" {

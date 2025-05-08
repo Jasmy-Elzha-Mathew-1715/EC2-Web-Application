@@ -8,6 +8,8 @@ const { spawn } = require('child_process');
 const { S3Client, PutObjectCommand, ListObjectsV2Command, DeleteObjectCommand, ListBucketsCommand } = require('@aws-sdk/client-s3');
 const os = require('os');
 
+require('dotenv').config();
+
 // Create Express app
 const app = express();
 const port = process.env.PORT || 3000;
